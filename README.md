@@ -165,3 +165,4 @@ python3 -m unittest discover -s tests
 - The detector is expected to use a COCO-style label file and a common TFLite detection output signature.
 - Picamera2 must already be installed and working on the Pi if you use `camera.source: picamera2`.
 # rpi-foot-traffic-monitor
+# rpi-foot-traffic-monitor
