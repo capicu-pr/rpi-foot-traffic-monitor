@@ -1,6 +1,8 @@
-# rpi-foot-traffic-monitor
+# Foot Traffic Monitor to Evaluate Storefront Activity in Plaza Colón, Mayagüez
 
-Raspberry Pi 4B storefront people and car counter using a Pi Camera, TensorFlow Lite object detection, a lightweight centroid tracker, and virtual line-crossing logic.
+<img width="1222" height="767" alt="Screenshot 2026-03-31 at 6 14 29 PM" src="https://github.com/user-attachments/assets/295d28a2-2a53-4702-bff2-1891c6538453" />
+
+This community project is done in collaboration with Perspectivas Globales, a program by OverComing Adversities Inc. (https://ocapr.org). We've deployed on Raspberry Pi 4B a storefront people and car counter using a Pi Camera, quantized EfficientNet architecture, a lightweight centroid tracker, and virtual line-crossing logic. We also showcase the use of CEMI (https://cemi.capicu.ai) to monitor and evaluate deployment workflows for our compressed model.
 
 ## What is included
 
@@ -10,7 +12,7 @@ Raspberry Pi 4B storefront people and car counter using a Pi Camera, TensorFlow 
 - `scripts/download_model.sh`: helper to fetch a COCO TFLite model and labels
 - `tests/`: focused unit tests for line-crossing logic
 
-## MVP pipeline
+## Pipeline
 
 `Picamera2 -> TFLite detector -> centroid tracker -> line crossing -> CSV/MQTT`
 
